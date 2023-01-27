@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title> THIS IS MY FIRST WEB PAGE</title>
+        <style>
+            th{
+                padding-right:50px;
+            }
+            body{
+                background: url(index.jpeg);
+                background-repeat:no-repeat;
+                background-attachment:fixed;
+                background-size:100% 100%;
+            }
+            h2{
+                color:green;
+            }
+            p{
+                color:brown
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="text-align: left;">Karbo Larbo Jeetbo Re</h1>
+        <h2>Welcome To TMC</h2>
+        
+        <p>Prime Minister Mr. Busy Prime Minister</p>
+        <p><b>We Love You Mamta Didi/Aunty/Amma</b></p>
+        <p >BBROYGOODBOYVERYGOODWIFE</p>
+
+        <table>
+        <tr>
+        <th > About</th>
+        <th > Contact</th>
+
+        </tr>
+       </table>
+       <button onclick="changelolopopcolor()"> Disco Lolipop</button>
+       <img style="rotate: 64deg; margin-left: 45.5%; margin-top: 7.3%; height: auto; width: 100px;" onload="changelolopopcolor()" id="lolopop" src="./lolpop.png" >
+       <script > 
+       function changelolopopcolor(){ 
+        document.getElementById('lolopop').style.filter="hue-rotate(" + Math.random()*360 + "deg)";
+       }
+        
+    </script>
+    </body>
+</html>
